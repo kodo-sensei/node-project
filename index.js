@@ -5,7 +5,7 @@ const db = require('./models');
 var bodyParser = require('body-parser')
 
 app.use(bodyParser.json())
-require('./controllers/assetController')(app);
+require('./controllers/asset.controller')(app);
 require('./controllers/book.controller')(app);
 
 

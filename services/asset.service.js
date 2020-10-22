@@ -1,4 +1,4 @@
-var assetModel = require('../models/asset');
+var assetModel = require('../models/asset.model');
 var assetService = {
     getAssets: function () {
         return assetModel;

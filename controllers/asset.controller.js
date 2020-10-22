@@ -1,5 +1,5 @@
 
-var assetService = require('../services/assetService');
+var assetService = require('../services/asset.service');
 
 module.exports = function (app) {
     app.get('/service/get', (req, res) => {
